@@ -1,0 +1,6 @@
+#!/bin/sh
+yum install -y httpd httpd-devel php php-mbstring php-pdo php-mysql mysql-server
+/sbin/chkconfig --level 2345 httpd on
+/sbin/chkconfig --level 2345 mysqld on
+/etc/rc.d/init.d/mysqld start
+/etc/rc.d/init.d/httpd start
