@@ -1,0 +1,16 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-6.5 
+  - name: centos-5.9
+
+suites:
+  - name: default
+    run_list:
+      - recipe[acme-trac::default]
+    attributes:
