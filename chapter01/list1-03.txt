@@ -1,0 +1,15 @@
+%w{httpd httpd-devel php php-mbstring php-pdo php-mysql mysql-server}.each do |p|
+  package p do
+    action :install
+  end
+end
+
+service "httpd" do
+  action [:enable, :restart]
+  supports :status => true, :start => true, :stop => true, :restart => true
+end
+
+service "mysqld" do
+  action [:enable, :restart]
+  supports :status => true, :start => true, :stop => true, :restart => true
+end
