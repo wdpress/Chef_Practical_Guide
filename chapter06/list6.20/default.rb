@@ -1,4 +1,4 @@
-%w{git openssl-devel sqlite-devel}.each do |pkg|
+%w{gcc git openssl-devel sqlite-devel}.each do |pkg|
   package pkg do
     action :install
   end
