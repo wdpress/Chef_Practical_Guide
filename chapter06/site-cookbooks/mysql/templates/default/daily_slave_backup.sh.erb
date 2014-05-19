@@ -1,0 +1,7 @@
+#!/bin/sh
+
+filename=slave_dumpall_`date '+%Y%m%d%H%M'`.dump.gz
+
+mysqladmin stop-slave -u root -p"<%= node['mysql']['server_root_password'] %>"
+mysqldump --all-databases -u root -p"<%= node['mysql']['server_root_password'] %>" > $filename
+mysqladmin start-slave -u root -p"<%= node['mysql']['server_root_password'] %>"
