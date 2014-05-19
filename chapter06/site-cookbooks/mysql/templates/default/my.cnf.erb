@@ -1,0 +1,16 @@
+[mysqld]
+log-bin
+<% if node['hostname'] == "dbmaster" %>
+server-id=1
+<% elsif node['hostname'] == "dbslave" %>
+server-id=2
+<% end %>
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
