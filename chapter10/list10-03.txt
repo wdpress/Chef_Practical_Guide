@@ -1,0 +1,1 @@
+ks=http://xxx.xxx.xxx.xxx/ks/CentOS_6.5_pxe.txt load initrd=centos_6_5_x86_64/initrd.img devfs=nomount ksdevice=eth0 BOOT_IMAGE=centos_6_5_x86_64/vmlinuz node=chef-test01

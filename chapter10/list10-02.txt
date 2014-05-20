@@ -1,0 +1,9 @@
+set -- `cat /proc/cmdline`
+for x in $*; do
+  case $x in node*)
+        echo $x >> /tmp/ks-nodename
+    ;;
+  esac;
+done
+
+cat /tmp/ks-nodename | sed -e "s/\(.*\)node=\(.*\)/node_name '\\2'/" >> /etc/chef/client.rb

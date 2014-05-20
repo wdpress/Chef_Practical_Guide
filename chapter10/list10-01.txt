@@ -1,0 +1,2 @@
+chef_server_url  'https://xxx.xxx.xxx.xxx'
+node_name  'hostname'

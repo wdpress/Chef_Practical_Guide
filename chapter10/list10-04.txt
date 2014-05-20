@@ -1,0 +1,11 @@
+monitoring = {
+  :apache2_status => {
+    :checker => "http",
+    :level => "critical",
+    :interval => 60,
+    :params => {
+      :port => node[:apache2][:http_port],
+      :uri => node[:apache2][:monitor_url]
+    }
+  }
+}
