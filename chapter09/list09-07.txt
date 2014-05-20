@@ -1,0 +1,9 @@
+{
+  "name": "db01",
+  "chef_environment": "_default",
+  "normal": {
+  },
+  "run_list": [
+    "role[db]"
+  ]
+}

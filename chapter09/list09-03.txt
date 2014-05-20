@@ -1,0 +1,7 @@
+{
+  "name": "db01",
+  "public_key": null,
+  "admin": false,
+  "json_class": "Chef::ApiClient",
+  "chef_type": "client"
+}
