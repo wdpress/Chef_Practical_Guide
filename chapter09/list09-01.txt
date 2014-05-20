@@ -1,0 +1,1 @@
+127.0.0.1   chef-test01 localhost localhost.localdomain localhost4 localhost4.localdomain4
