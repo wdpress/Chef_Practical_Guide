@@ -44,9 +44,9 @@ http://opensource.org/licenses/mit-license.php
 ## 本書についてのご質問
 本書についてのお問い合わせは、以下のページからお願いします。
 
-@TODO
+https://gihyo.jp/site/inquiry/book?ISBN=978-4-7741-6500-4
 
 ## 正誤表
 本書の正誤情報は以下のページで公開しています。
 
-@TODO
+http://gihyo.jp/book/2014/978-4-7741-6500-4/support#supportApology
