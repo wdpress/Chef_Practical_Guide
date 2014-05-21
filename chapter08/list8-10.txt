@@ -1,0 +1,4 @@
+service "apache" do
+  action :enable
+  only_if { node['foo'] == 'bar' }
+end

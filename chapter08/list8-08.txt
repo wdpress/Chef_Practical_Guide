@@ -1,0 +1,11 @@
+%w{php mysql nginx}.each do |name|
+  package name do
+    action :install
+  end
+end
+
+%w{php-fpm mysql nginx}.each do |name|
+  service name do
+    action :start
+  end
+end

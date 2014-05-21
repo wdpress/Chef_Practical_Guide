@@ -1,0 +1,3 @@
+execute "shell" do
+  command "date"
+end

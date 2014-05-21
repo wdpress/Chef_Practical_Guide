@@ -1,0 +1,3 @@
+f = resources("file[/etc/hosts]")
+f.mode 00644
+f.run_action(:run)

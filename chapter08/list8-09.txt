@@ -1,0 +1,5 @@
+if node['foo'] == 'bar'
+  service "apache" do
+    action :enable
+  end
+end

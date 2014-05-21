@@ -1,0 +1,8 @@
+packages = %w{git subversion nginx php5}
+
+packages.each do |pkg|
+  package pkg do
+    action [:install, :upgrade]
+    version node.default[:versions][pkg]
+  end
+end

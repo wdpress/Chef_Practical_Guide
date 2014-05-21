@@ -1,0 +1,19 @@
+package "ruby" do
+  action [:install, :upgrade]
+end
+
+package "mysql-server" do
+  action [:install, :upgrade]
+end
+
+template "/etc/mysqld.conf" do
+  source "mysqld.conf.erb"
+end
+
+template "/etc/my.conf" do
+  source "my.conf.erb"
+emd
+
+service "mysqld" do
+  action [:enable, :restart]
+end

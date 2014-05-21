@@ -1,0 +1,7 @@
+host_porter node['hostname'] do
+  port 4000
+end
+
+host_porter "www1" do
+  port 4001
+end
