@@ -21,7 +21,7 @@
 - Appendix B:クックブックチートシート
 
 ### サポートページ
-@TODO
+http://gihyo.jp/book/2014/978-4-7741-6500-4
 
 ### WEB+DB PRESS plusシリーズ
 http://wdpress.gihyo.jp/plus
