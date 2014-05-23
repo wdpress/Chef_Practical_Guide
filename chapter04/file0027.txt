@@ -1,0 +1,6 @@
+ {
+   "environment": "development",
+   "run_list":[ 
+     "role[web]"
+   ]
+ }

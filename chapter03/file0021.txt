@@ -1,0 +1,5 @@
+service "td-agent" do
+  supports :status => true, :restart => true, :reload => true
+  action [ :enable, :start ]
+  subscribes :restart, "template[td-agent.conf]"
+end

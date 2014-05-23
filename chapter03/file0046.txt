@@ -1,0 +1,6 @@
+file "/path/to/something" do
+  owner "root"
+  group "root"
+  mode 00755
+  action :create
+end

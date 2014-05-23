@@ -1,0 +1,6 @@
+{
+  "id" : "inao",
+  "username" : "inao",
+  "home" : "/home/inao",
+  "shell" : "/bin/inao"
+}

@@ -1,0 +1,3 @@
+config.vm.define :node01 do |node01|
+  node01.vm.box = "opscode-ubuntu-12.04"
+end

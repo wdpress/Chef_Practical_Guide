@@ -1,0 +1,2 @@
+$ vagrant init centos
+$ vagrant up

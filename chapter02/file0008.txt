@@ -1,0 +1,2 @@
+$ vagrant init opscode-centos-6.5
+$ vagrant up

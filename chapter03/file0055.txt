@@ -1,0 +1,6 @@
+{
+  "id" : "naoya",
+  "username" : "naoya",
+  "home" : "/home/naoya",
+  "shell" : "/bin/bash"
+}

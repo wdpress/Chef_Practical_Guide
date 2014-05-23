@@ -1,0 +1,4 @@
+$ ohai platform
+[
+  "centos"
+]

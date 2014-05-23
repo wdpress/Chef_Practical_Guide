@@ -1,0 +1,5 @@
+group "admin" do
+  action :modify
+  members [ 'dikeda' ]
+  append true
+end

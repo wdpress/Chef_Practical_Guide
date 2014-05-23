@@ -1,0 +1,3 @@
+$ ls /vagrant
+Berksfile       Vagrantfile  data_bags     nodes  site-cookbooks
+Berksfile.lock  cookbooks    environments  roles

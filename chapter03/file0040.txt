@@ -1,0 +1,3 @@
+not_if <<-EOC, :user => 'vagrant', :environment => { 'HOME' => '/home/vagrant' }
+    略
+EOC

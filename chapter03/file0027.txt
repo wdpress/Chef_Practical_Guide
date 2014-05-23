@@ -1,0 +1,5 @@
+group "webdb" do
+  gid 999
+  members ['naoya', 'inao']
+  action :create
+end

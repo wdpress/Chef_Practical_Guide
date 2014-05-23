@@ -1,0 +1,4 @@
+http_request "please_delete_me" do
+  url "http://www.example.com/some_page"
+  action :get
+end

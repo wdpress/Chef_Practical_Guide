@@ -1,0 +1,7 @@
+$ berks
+Using yum-epel (0.2.0)
+Using apache2 (1.8.14)
+Using mysql (4.0.20)
+Using yum (3.0.4)
+Using openssl (1.1.0)
+Using build-essential (1.4.2)

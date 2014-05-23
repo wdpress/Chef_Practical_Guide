@@ -1,0 +1,5 @@
+gem_package 'fluent-plugin-extract_query_params' do
+  gem_binary "/usr/lib64/fluent/ruby/bin/fluent-gem"
+  version '0.0.2'
+  action :upgrade
+end

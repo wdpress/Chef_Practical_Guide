@@ -1,0 +1,2 @@
+$ knife cookbook create apache -o site-cookbooks
+$ knife cookbook create mysql -o site-cookbooks

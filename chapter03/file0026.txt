@@ -1,0 +1,8 @@
+user "naoya" do
+  comment "naoya"
+  home "/home/naoya"
+  shell "/bin/bash"
+  password nil
+  supports :manage_home => true
+  action   [:create, :manage]
+end

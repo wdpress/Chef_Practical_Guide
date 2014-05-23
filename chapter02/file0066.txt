@@ -1,0 +1,1 @@
+$ cp /etc/httpd/conf/httpd.conf /vagrant/site-cookbooks/apache/templates/default/httpd.conf.erb

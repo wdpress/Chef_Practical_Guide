@@ -1,0 +1,4 @@
+cookbook_file "#{Chef::Config[:file_cache_path]}/supervisor-3.0.rpm" do
+  source "supervisor-3.0a12-2.el6.noarch.rpm"
+  mode 00644
+end

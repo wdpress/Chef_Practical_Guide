@@ -1,0 +1,14 @@
+$ sudo chef-solo -o hello,dstat
+...
+Compiling Cookbooks...
+Converging 2 resources
+Recipe: hello::default
+  * log[Hello, World!] action write
+
+Recipe: dstat::default
+  * package[dstat] action install (up to date)
+
+Running handlers:
+Running handlers complete
+
+Chef Client finished, 1/2 resources updated in 4.24875853 seconds
