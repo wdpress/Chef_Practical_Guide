@@ -1,0 +1,8 @@
+file "/var/hoge4" do
+  action :create
+end
+
+# コンパイルの時点ではファイルは作成されていない
+if !File.exist?("/var/hoge4") then
+  p "File not found"
+end

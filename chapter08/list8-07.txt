@@ -1,0 +1,23 @@
+package　"php" do
+  action :install
+end
+
+package　"mysql" do
+  action :install
+end
+
+package　"nginx" do
+  action :install
+end
+
+service "php-fpm" do
+  action :start
+end
+
+service "mysql" do
+  action :start
+end
+
+service "nginx" do
+  action :start
+end

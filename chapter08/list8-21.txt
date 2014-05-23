@@ -1,0 +1,2 @@
+cookbook "artifact", path: "/Users/reset/code/artifact-cookbook"
+cookbook "mysql", git: "https://github.com/opscode-cookbooks/mysql.git", branch: "master"

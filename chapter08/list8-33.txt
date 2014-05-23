@@ -1,0 +1,21 @@
+def whyrun_supported?
+  true
+end
+
+# インラインで実行
+use_inline_resources
+
+# :deleteアクションに対応する処理
+action :delete do
+  	if user_exists?(example.user)
+    	cmdStr = "rabbitmqctl delete_user #{new_resource.user}"
+    	execute cmdStr do
+      	new_resource.updated_by_last_action(true)
+    	end
+  	end
+end
+
+# アクション内で使う任意の関数の定義
+def user_exists?(name)
+  true
+end

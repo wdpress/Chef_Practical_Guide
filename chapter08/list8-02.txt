@@ -1,0 +1,2 @@
+package "ntp" do
+  action :install

@@ -1,0 +1,4 @@
+provides "hoge"
+hoge Mash.new
+hoge[:message] = 'my second plugin'
+hoge[:list] = [1,10,20]

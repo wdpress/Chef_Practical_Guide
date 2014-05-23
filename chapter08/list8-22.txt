@@ -1,0 +1,14 @@
+p "One"
+execute "apt-get update" do
+  action :run
+end
+
+p "Two"
+package "vim" do
+  action :install
+end
+
+p "Three"
+service "ssh" do
+  action :restart
+end

@@ -1,0 +1,11 @@
+file "/var/hoge5" do
+  action :create
+end
+
+#リソースとして実行されればファイルは作成されている
+ruby_block "check_file" do
+  block do if File.exist?("/var/hoge5") then
+      p "found"
+    end
+  end
+end
