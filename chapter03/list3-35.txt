@@ -1,0 +1,6 @@
+cron "name_of_cron_entry" do
+  hour 8
+  weekday 6
+  mailto admin@example.com
+  action :create
+end

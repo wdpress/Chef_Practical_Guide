@@ -1,0 +1,12 @@
+$ knife cookbook site search apache2
+apache2:
+  cookbook:             http://cookbooks.opscode.com/api/v1/cookbooks/apache2
+  cookbook_description: Installs and configures all aspects of apache2 using Debian style symlinks with helper definitions
+  cookbook_maintainer:  opscode
+  cookbook_name:        apache2
+apache2-windows:
+  cookbook:             http://cookbooks.opscode.com/api/v1/cookbooks/apache2-windows
+  cookbook_description: Installs/configures Apache2 on Windows Azure
+  cookbook_maintainer:  dlrobinson
+  cookbook_name:        apache2-windows
+略

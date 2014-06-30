@@ -1,0 +1,1 @@
+$ sudo knife cookbook create dstat -o /var/chef/cookbooks

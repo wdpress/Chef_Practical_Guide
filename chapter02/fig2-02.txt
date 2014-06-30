@@ -1,0 +1,2 @@
+$ vagrant -v
+Vagrant 1.5.1

@@ -1,0 +1,17 @@
+$ sudo chef-solo -o hello
+[2014-03-24T12:21:06+00:00] WARN: *****************************************
+[2014-03-24T12:21:06+00:00] WARN: Did not find config file: /etc/chef/solo.rb, using command line options.
+[2014-03-24T12:21:06+00:00] WARN: *****************************************
+Starting Chef Client, version 11.10.4
+[2014-03-24T12:21:08+00:00] WARN: Run List override has been provided.
+[2014-03-24T12:21:08+00:00] WARN: Original Run List: []
+[2014-03-24T12:21:08+00:00] WARN: Overridden Run List: [recipe[hello]]
+Compiling Cookbooks...
+Converging 1 resources
+Recipe: hello::default
+  * log[Hello, World!] action write
+
+Running handlers:
+Running handlers complete
+
+Chef Client finished, 1/1 resources updated in 1.713308761 seconds

@@ -1,0 +1,8 @@
+略
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  略
+  config.vm.box = "opscode-centos-6.5"
+  略
+  config.vm.network :private_network, ip: "192.168.33.10"
+  略
+end

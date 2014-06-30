@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    },
+    "apache2": {
+      "locked_version": "1.8.14"
+    },
+    "mysql": {
+    略

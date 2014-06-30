@@ -1,0 +1,4 @@
+package "perl" do
+  action :install
+  version "5.10.1"
+end

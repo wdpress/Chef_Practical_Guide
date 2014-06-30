@@ -1,0 +1,7 @@
+git "/home/vagrant/.oh-my-zsh" do
+  repository "git://github.com/robbyrussell/oh-my-zsh.git"
+  reference "master"
+  action :checkout
+  user "vagrant"
+  group "vagrant"
+end

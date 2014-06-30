@@ -1,0 +1,7 @@
+file "/path/to/something" do
+  content "Chef Practical Guide Sample"
+  owner "root"
+  group "root"
+  mode 00755
+  action :create
+end

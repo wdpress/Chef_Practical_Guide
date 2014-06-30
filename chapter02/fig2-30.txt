@@ -1,0 +1,19 @@
+$ knife solo cook webdb
+Recipe: apache::default
+  略
+  * template[httpd.conf] action create
+    - update content in file /etc/httpd/conf/httpd.conf from beb8a6 to 2b811c
+        --- /etc/httpd/conf/httpd.conf  2013-08-02 11:59:13.000000000 +0000
+        +++ /tmp/chef-rendered-template20140324-7937-1qnvglq    2014-03-24 10:59:04.279070256 +0000
+        @@ -274,6 +274,7 @@
+         # redirections work in a sensible way.
+         #
+         #ServerName www.example.com:80
+        +ServerName webdb:80
+
+         #
+         # UseCanonicalName: Determines how Apache constructs self-referencing
+
+Recipe: apache::default
+  * service[httpd] action reload
+    - reload service service[httpd]

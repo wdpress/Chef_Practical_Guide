@@ -1,0 +1,7 @@
+{
+    "run_list":[
+        "recipe[git]",
+        "role[web]",
+        "role[db]"            
+    ]
+}

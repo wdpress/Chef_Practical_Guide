@@ -1,0 +1,5 @@
+$ vagrant ssh node01
+$ vagrant ssh-config node01 >> ~/.ssh/config
+$ vagrant halt node01
+$ vagrant destroy node01
+$ vagrant up node01

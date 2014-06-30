@@ -1,0 +1,7 @@
+bash "install-rubybuild" do
+  not_if 'which ruby-build'
+  code <<-EOC
+    cd /tmp/ruby-build
+    ./install.sh
+  EOC
+end

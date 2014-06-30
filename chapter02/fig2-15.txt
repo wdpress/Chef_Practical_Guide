@@ -1,0 +1,2 @@
+$ rpm -q dstat
+dstat-0.7.0-1.el6.noarch

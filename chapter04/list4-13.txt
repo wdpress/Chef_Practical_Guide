@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+      "apache": {
+          "listen_ports": [
+            "80",
+            "443"
+          ]
+      }
+  },
+  "override_attributes": {
+      "apache": {
+          "max_children" : "50"
+      }
+  },
+  "run_list": [
+      "recipe[git]",
+      "recipe[apache2]"
+  ]
+}

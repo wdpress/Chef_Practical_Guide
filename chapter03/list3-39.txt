@@ -1,0 +1,4 @@
+link "/tmp/passwd" do
+  to "/etc/passwd"
+  link_type :hard
+end

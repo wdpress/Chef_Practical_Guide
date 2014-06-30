@@ -1,0 +1,9 @@
+$ ohai | head
+{
+  "languages": {
+    "ruby": {
+      "platform": "x86_64-linux",
+      "version": "1.8.7",
+      "release_date": "2011-06-30",
+      "target": "x86_64-redhat-linux-gnu",
+      "target_cpu": "x86_64",

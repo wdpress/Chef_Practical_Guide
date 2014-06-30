@@ -1,0 +1,10 @@
+{
+    "apache": {
+        "listen_ports": [ 8080 ],
+        "keepalive": "Off",
+        "docroot_dir": "/home/vagrant/htdocs"
+    },
+    "run_list":[
+        "recipe[apache2]"
+    ]
+} 

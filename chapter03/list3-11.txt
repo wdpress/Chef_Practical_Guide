@@ -1,0 +1,4 @@
+package "tar" do
+  action :install
+  source "/tmp/tar-1.16.1-1.rpm"
+end

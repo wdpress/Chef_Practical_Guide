@@ -1,0 +1,3 @@
+ifconfig "192.168.30.1" do
+  device "eth0"
+end

@@ -1,0 +1,2 @@
+$ vagrant ssh
+$ ps auxw | egrep "(httpd|mysql)"

@@ -1,0 +1,16 @@
+group 'td-agent' do
+  group_name 'td-agent'
+  gid        403
+  action    :create
+end
+
+user 'td-agent' do
+  comment  'td-agent'
+  uid      403
+  group    'td-agent'
+  home     '/var/run/td-agent'
+  shell    '/bin/false'
+  password nil
+  supports :manage_home => true
+  action   [:create, :manage]
+end

@@ -1,0 +1,1 @@
+$ vagrant ssh-config --host webdb >> ~/.ssh/config

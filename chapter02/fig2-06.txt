@@ -1,0 +1,4 @@
+$ vagrant ssh
+Last login: Sat May 24 04:55:22 2014 from 10.0.2.2
+[vagrant@localhost ~]$ cat /etc/redhat-release
+CentOS release 6.5 (Final)    

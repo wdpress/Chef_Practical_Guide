@@ -1,0 +1,10 @@
+{
+  "httpd" : {
+    "port" : 80
+  },
+  "run_list":[
+    "recipe[git]",
+    "recipe[apache]",
+    "recipe[mysql]"
+  ]
+}

@@ -1,0 +1,2 @@
+$ chef-solo -v
+Chef: 11.10.4

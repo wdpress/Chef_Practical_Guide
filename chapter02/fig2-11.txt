@@ -1,0 +1,1 @@
+$ sudo knife cookbook create hello -o /var/chef/cookbooks

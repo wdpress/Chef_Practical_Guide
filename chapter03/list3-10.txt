@@ -1,0 +1,3 @@
+package "perl" do
+  action :remove
+end

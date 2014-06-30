@@ -1,0 +1,8 @@
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "opscode-centos-6.5"
+  略
+  
+  # 次の2行を追加
+  config.vm.define :node01
+  config.vm.define :node02
+end

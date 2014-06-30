@@ -1,0 +1,1 @@
+$ knife solo cook naoya@myserver.example.com -i ~/.ssh/id_rsa
