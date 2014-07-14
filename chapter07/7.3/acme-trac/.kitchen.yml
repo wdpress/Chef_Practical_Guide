@@ -7,7 +7,6 @@ provisioner:
 
 platforms:
   - name: centos-6.5 
-  - name: centos-5.9
 
 suites:
   - name: default
