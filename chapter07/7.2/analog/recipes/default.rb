@@ -25,6 +25,10 @@ when "centos"
     source "http://www.iddl.vt.edu/~jackie/analog/#{rpmfile}"
   end
 
+	package 'perl' do
+		action :install
+	end
+
   package "analog" do
     action :install
     source "#{Chef::Config[:file_cache_path]}/#{rpmfile}"
